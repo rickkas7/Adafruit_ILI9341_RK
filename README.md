@@ -12,14 +12,9 @@ There aren't any wires necessary, but it does use the following pins:
 - TFT_CS (display) = D4
 - D/C (display) = D5
 
-This library is just a wrapper around two other libraries:
+This library is also uses:
 
-- [Adafruit\_STMPE610\_RK](https://github.com/rickkas7/Adafruit_STMPE610_RK)
 - [Adafruit\_GFX\_RK](https://github.com/rickkas7/Adafruit_GFX_RK)
-
-Once the SdFat library is modified to support the mesh devices it will be added as well. 
-
-You don't need to use this library - if you only need the display and not the touchscreen, for example, you can use the Adafruit\_ILI9341\_RK directly directly.
 
 There are two Adafruit examples:
 
@@ -27,7 +22,6 @@ There are two Adafruit examples:
 - examples/touchpaint\_featherwing
 
 If you are looking for the 3.5" TFT Featherwing, check out [Adafruit\_HX8357\_RK](https://github.com/rickkas7/Adafruit_HX8357_RK) instead.
-
 
 
 ## Original Adafruit Readme for the ILI9341
