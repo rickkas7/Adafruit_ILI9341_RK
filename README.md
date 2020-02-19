@@ -60,3 +60,9 @@ Place the Adafruit_ILI9341 library folder your arduinosketchfolder/libraries/ fo
 
 Also requires the Adafruit_GFX library for Arduino.
 
+## Version History
+
+#### 1.2.2 (2020-02-19)
+
+- Update Adafruit_GFX_RK to 1.5.6
+- Added default SPI speed

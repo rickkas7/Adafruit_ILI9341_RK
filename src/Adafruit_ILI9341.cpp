@@ -67,6 +67,8 @@
   #define SPI_DEFAULT_FREQ  80000000
 #elif defined(ARDUINO_ARCH_STM32F1)
   #define SPI_DEFAULT_FREQ  36000000
+#elif defined(PARTICLE)
+  #define SPI_DEFAULT_FREQ  32000000
 #else
   #define SPI_DEFAULT_FREQ  24000000  ///< Default SPI data clock frequency
 #endif
