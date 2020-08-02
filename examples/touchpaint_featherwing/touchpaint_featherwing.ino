@@ -73,8 +73,8 @@
 #endif
 
 
-Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC);
-Adafruit_STMPE610 ts = Adafruit_STMPE610(STMPE_CS);
+Adafruit_ILI9341 tft(TFT_CS, TFT_DC);
+Adafruit_STMPE610 ts(STMPE_CS);
 
 
 // This is calibration data for the raw touch data to the screen coordinates

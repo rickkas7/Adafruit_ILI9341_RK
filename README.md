@@ -62,6 +62,12 @@ Also requires the Adafruit_GFX library for Arduino.
 
 ## Version History
 
+#### 1.2.3 (2020-08-02)
+
+- Update Adafruit_GFX_RK to 1.5.8
+- Modify examples to not rely on copy constructor which is not implemented in Adafruit_SPITFT
+
+
 #### 1.2.2 (2020-02-19)
 
 - Update Adafruit_GFX_RK to 1.5.6

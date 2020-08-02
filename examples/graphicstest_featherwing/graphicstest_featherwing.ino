@@ -69,7 +69,7 @@
 #endif
 
 
-Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC);
+Adafruit_ILI9341 tft(TFT_CS, TFT_DC);
 
 void setup() {
   Serial.begin(115200);
